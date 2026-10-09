@@ -50,4 +50,5 @@ jobs:
       - uses: golangci/golangci-lint-action@v6
         with:
           # Go 1.27
-          version: v1.67.0
+          version: v2.14.0
+          install-mode: binary
